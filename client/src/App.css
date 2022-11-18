@@ -1,0 +1,90 @@
+* {
+  background-color: rgb(10, 70, 45);
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(10, 70, 45);
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  margin: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: rgb(120, 151, 136);
+  font-weight: bold;
+}
+label {
+  color: rgb(173, 105, 42);
+  font-weight: bolder;
+  font-size: 25px;
+  text-shadow: -3px 0px 0px black, 3px 0px 0px black, 0px -3px 0px black,
+    0px 3px 0px black;
+}
+button {
+  width: 250px;
+  height: 50px;
+  margin: 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  background-color: rgb(102, 133, 118);
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgb(33, 44, 37);
+  color: aliceblue;
+}
+.employees {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.employee {
+  width: 700px;
+  height: auto;
+  border: 3px solid black;
+  margin: 15px;
+  display: flex;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+}
+.employee .info {
+  width: 500px;
+  margin: 20px;
+}
+.employee h3 {
+  margin: 15px;
+  color: rgb(173, 105, 42);
+  font-weight: bolder;
+  font-size: 18px;
+  text-shadow: -2px 0px 0px black, 2px 0px 0px black, 0px -2px 0px black,
+    0px 2px 0px black;
+}
+@media only screen and (max-width: 1200px) {
+  .employee {
+    width: 300px;
+    display: block;
+  }
+  .employee .info {
+    width: 280px;
+    margin: 20px;
+  }
+  .newWage {
+    width: 250px;
+  }
+}
